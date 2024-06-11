@@ -24,7 +24,7 @@ const GlobalContextData = (props) => {
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '657991dd92msh28f9aa272d2d394p175c5ajsnf693f8cb86b9',
+                    'X-RapidAPI-Key': process.env.API_KEY,
                     'X-RapidAPI-Host': 'jobicy.p.rapidapi.com'
                 }
             };
